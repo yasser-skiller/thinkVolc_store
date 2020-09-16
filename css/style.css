@@ -585,13 +585,20 @@ ul, ol {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      margin: auto; }
+      margin: auto;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
       .Gits .bottom .card img {
         width: 100%;
         height: 80%;
         -webkit-transition: all 1s;
         -o-transition: all 1s;
         transition: all 1s; }
+        .Gits .bottom .card img:hover {
+          -webkit-transition: all 1s;
+          -o-transition: all 1s;
+          transition: all 1s; }
       .Gits .bottom .card .fa-arrow-down {
         font-size: 20px;
         display: none; }
@@ -613,10 +620,11 @@ ul, ol {
             -ms-flex-align: center;
                 align-items: center;
         padding: 5px;
-        -webkit-transition: all 1s;
-        -o-transition: all 1s;
-        transition: all 1s;
-        display: none; }
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        display: none;
+        transition: all 0.5s; }
         @media (max-width: 767px) {
           .Gits .bottom .card .list {
             display: -webkit-box;
@@ -756,13 +764,20 @@ ul, ol {
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center;
-          margin: auto; }
+          margin: auto;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
           .bsetSell .container .swiper-container .swiper-slide .card img {
             width: 100%;
             height: 80%;
             -webkit-transition: all 1s;
             -o-transition: all 1s;
             transition: all 1s; }
+            .bsetSell .container .swiper-container .swiper-slide .card img:hover {
+              -webkit-transition: all 1s;
+              -o-transition: all 1s;
+              transition: all 1s; }
           .bsetSell .container .swiper-container .swiper-slide .card .fa-arrow-down {
             font-size: 20px;
             display: none; }
@@ -784,10 +799,11 @@ ul, ol {
                 -ms-flex-align: center;
                     align-items: center;
             padding: 5px;
-            -webkit-transition: all 1s;
-            -o-transition: all 1s;
-            transition: all 1s;
-            display: none; }
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+            display: none;
+            transition: all 0.5s; }
             @media (max-width: 767px) {
               .bsetSell .container .swiper-container .swiper-slide .card .list {
                 display: -webkit-box;
@@ -925,7 +941,10 @@ ul, ol {
           -ms-flex-pack: center;
               justify-content: center;
       margin: auto;
-      position: relative; }
+      position: relative;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
       .Hands .bottom .card .fa-arrow-down {
         font-size: 20px;
         display: none; }
@@ -935,6 +954,10 @@ ul, ol {
         -webkit-transition: all 1s;
         -o-transition: all 1s;
         transition: all 1s; }
+        .Hands .bottom .card img:hover {
+          -webkit-transition: all 1s;
+          -o-transition: all 1s;
+          transition: all 1s; }
       .Hands .bottom .card .list {
         position: absolute;
         top: 20px;
@@ -953,10 +976,11 @@ ul, ol {
             -ms-flex-align: center;
                 align-items: center;
         padding: 5px;
-        -webkit-transition: all 1s;
-        -o-transition: all 1s;
-        transition: all 1s;
-        display: none; }
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        display: none;
+        transition: all 0.5s; }
         @media (max-width: 767px) {
           .Hands .bottom .card .list {
             display: -webkit-box;
@@ -1083,7 +1107,10 @@ ul, ol {
   border: none;
   border-radius: 10px;
   padding: 15px;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
   .btn:hover {
     background-color: #189c95; }
 
@@ -1097,7 +1124,10 @@ ul, ol {
   border: none;
   border-radius: 10px;
   padding: 15px;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
   @media (max-width: 567px) {
     .btn_info {
       margin-top: 25px; } }
@@ -1116,7 +1146,10 @@ ul, ol {
   border-radius: 10px;
   padding: 10px;
   margin: 20px 0;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
   .btn_footer:hover {
     background-color: #189c95; }
 

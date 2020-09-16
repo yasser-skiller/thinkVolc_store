@@ -89,8 +89,8 @@ ar_list.forEach(element => {
     element.children[2].addEventListener('click',function(){
 
         if(this.style.display !== 'none'){
-            heart_Coun ++;
-            Buy_Counter.textContent = heart_Coun;
+            Buy_Coun ++;
+            Buy_Counter.textContent = Buy_Coun;
             this.style.display = 'none';
             element.children[3].classList.add('hide')
             element.children[3].style.display = 'block';
@@ -101,8 +101,8 @@ ar_list.forEach(element => {
     element.children[3].addEventListener('click',function(){
 
         if(this.classList.contains('hide')){
-            heart_Coun --;
-            Buy_Counter.textContent = heart_Coun;
+            Buy_Coun --;
+            Buy_Counter.textContent = Buy_Coun;
             element.children[2].style.display = 'block';
             this.classList.remove('hide');
             this.style.display = 'none';
