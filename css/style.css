@@ -1016,9 +1016,9 @@ ul, ol {
         transition: transform  .5s ease-in-out, -webkit-transform  .5s ease-in-out;
         cursor: pointer; }
         .Hands .bottom .card img:hover {
-          -webkit-transform: scale(1.1);
-              -ms-transform: scale(1.1);
-                  transform: scale(1.1); }
+          -webkit-transform: scale(1.2);
+              -ms-transform: scale(1.2);
+                  transform: scale(1.2); }
       .Hands .bottom .card .list {
         position: absolute;
         top: 20px;
@@ -1114,7 +1114,7 @@ ul, ol {
       grid-row: 1 / 3;
       height: 510px; }
       .Hands .bottom .sp img {
-        height: 88%; }
+        height: 100%; }
       .Hands .bottom .sp .card_info {
         height: 50px; }
 
@@ -1246,10 +1246,10 @@ ul, ol {
             -ms-flex-align: center;
                 align-items: center; } }
     .footer .cont .logo {
-      width: 15%;
+      width: 20%;
       height: 100%;
       background-color: #efefef;
-      padding: 10px; }
+      padding: 25px; }
       @media (max-width: 767px) {
         .footer .cont .logo {
           width: 35%;
