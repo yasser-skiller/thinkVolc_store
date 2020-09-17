@@ -11,8 +11,10 @@ var swiper = new Swiper('.swiper-containe', {
 let list = document.querySelectorAll('.list');
 let ar_list = Array.from(list);
 
-let prouduct_img = document.querySelectorAll('.prouduct_img');
+let prouduct_img = document.querySelectorAll('.over');
 let ar_prouduct_img = Array.from(prouduct_img)
+
+console.log(ar_prouduct_img)
 
 let heart_Counter = document.querySelector('#loved_Num');
 let Buy_Counter = document.querySelector('#Buy_Num');
