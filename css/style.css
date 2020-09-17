@@ -380,7 +380,7 @@ ul, ol {
             font-weight: 500;
             font-size: 18px;
             color: #fff;
-            padding: 1px 2px;
+            padding: 0px 4px;
             border-radius: 2px;
             background-color: #1ebab1; }
           .header .bottom_header .part_two .tools .Heart_icon img,
@@ -513,8 +513,8 @@ ul, ol {
 
 .main_item {
   width: 100%;
-  border-top: 2px solid #713c97;
-  border-bottom: 2px solid #713c97;
+  border-top: 1px solid #713c97;
+  border-bottom: 1px solid #713c97;
   margin: 100px auto; }
   .main_item .container {
     display: -webkit-box;
@@ -530,7 +530,7 @@ ul, ol {
         justify-content: space-around; }
   .main_item li {
     list-style: none;
-    margin: 10px; }
+    margin: 15px 10px; }
     .main_item li a {
       text-decoration: none;
       list-style: none;
@@ -1239,7 +1239,7 @@ ul, ol {
       width: 15%;
       height: 100%;
       background-color: #efefef;
-      padding: 5px; }
+      padding: 10px; }
       @media (max-width: 767px) {
         .footer .cont .logo {
           width: 35%;
