@@ -572,6 +572,7 @@ ul, ol {
       font-family: 'Kufam', cursive;
       font-weight: 900;
       font-size: 40px;
+      text-align: center;
       color: #713c97; }
   .Gits .bottom {
     width: 100%;
@@ -763,6 +764,7 @@ ul, ol {
         font-family: 'Kufam', cursive;
         font-weight: 900;
         font-size: 40px;
+        text-align: center;
         color: #713c97; }
     .bsetSell .container .swiper-container {
       width: 96%;
@@ -943,6 +945,7 @@ ul, ol {
       font-family: 'Kufam', cursive;
       font-weight: 900;
       font-size: 40px;
+      text-align: center;
       color: #713c97; }
   .Hands .bottom {
     width: 100%;
