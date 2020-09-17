@@ -977,6 +977,7 @@ ul, ol {
     height: auto;
     display: grid;
     grid-gap: 10px;
+    grid-row-gap: 15px;
     grid-template-columns: repeat(4, 1fr);
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -984,10 +985,10 @@ ul, ol {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    @media (min-width: 1300px) {
+    @media (min-width: 1350px) {
       .Hands .bottom {
         grid-template-columns: repeat(5, 1fr); } }
-    @media (min-width: 1650px) {
+    @media (min-width: 1700px) {
       .Hands .bottom {
         grid-template-columns: repeat(6, 1fr); } }
     @media (max-width: 992px) {

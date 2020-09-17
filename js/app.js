@@ -1,4 +1,6 @@
-//header
+
+setTimeout(() => {
+  //header
 var swiper = new Swiper('.swiper-containe', {
   spaceBetween: 30,
   effect: 'fade',
@@ -11,6 +13,7 @@ var swiper = new Swiper('.swiper-containe', {
     prevEl: '.swiper-button-prev',
   },
 });
+}, 100);
 let list = document.querySelectorAll('.list');
 let ar_list = Array.from(list);
 
