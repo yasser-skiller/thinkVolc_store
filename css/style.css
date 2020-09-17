@@ -615,11 +615,14 @@ ul, ol {
       margin: auto;
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
-      transition: all 0.5s;
-      overflow: hidden; }
+      transition: all 0.5s; }
+      .Gits .bottom .card .over {
+        overflow: hidden;
+        width: 100%;
+        height: 80%; }
       .Gits .bottom .card img {
         width: 100%;
-        height: 80%;
+        height: 100%;
         -webkit-transform: scale(1);
             -ms-transform: scale(1);
                 transform: scale(1);
@@ -630,9 +633,9 @@ ul, ol {
         transition: transform  .5s ease-in-out, -webkit-transform  .5s ease-in-out;
         cursor: pointer; }
         .Gits .bottom .card img:hover {
-          -webkit-transform: scale(1.45);
-              -ms-transform: scale(1.45);
-                  transform: scale(1.45); }
+          -webkit-transform: scale(1.2);
+              -ms-transform: scale(1.2);
+                  transform: scale(1.2); }
       .Gits .bottom .card .fa-arrow-down {
         font-size: 20px;
         display: none; }
@@ -803,11 +806,14 @@ ul, ol {
           margin: auto;
           -webkit-transition: all 0.5s;
           -o-transition: all 0.5s;
-          transition: all 0.5s;
-          overflow: hidden; }
+          transition: all 0.5s; }
+          .bsetSell .container .swiper-container .swiper-slide .card .over {
+            overflow: hidden;
+            width: 100%;
+            height: 80%; }
           .bsetSell .container .swiper-container .swiper-slide .card img {
             width: 100%;
-            height: 80%;
+            height: 100%;
             -webkit-transform: scale(1);
                 -ms-transform: scale(1);
                     transform: scale(1);
@@ -818,9 +824,9 @@ ul, ol {
             transition: transform  .5s ease-in-out, -webkit-transform  .5s ease-in-out;
             cursor: pointer; }
             .bsetSell .container .swiper-container .swiper-slide .card img:hover {
-              -webkit-transform: scale(1.45);
-                  -ms-transform: scale(1.45);
-                      transform: scale(1.45); }
+              -webkit-transform: scale(1.2);
+                  -ms-transform: scale(1.2);
+                      transform: scale(1.2); }
           .bsetSell .container .swiper-container .swiper-slide .card .fa-arrow-down {
             font-size: 20px;
             display: none; }
@@ -993,9 +999,13 @@ ul, ol {
       .Hands .bottom .card .fa-arrow-down {
         font-size: 20px;
         display: none; }
+      .Hands .bottom .card .over {
+        overflow: hidden;
+        width: 100%;
+        height: 80%; }
       .Hands .bottom .card img {
         width: 100%;
-        height: 75%;
+        height: 100%;
         -webkit-transform: scale(1);
             -ms-transform: scale(1);
                 transform: scale(1);
@@ -1006,9 +1016,9 @@ ul, ol {
         transition: transform  .5s ease-in-out, -webkit-transform  .5s ease-in-out;
         cursor: pointer; }
         .Hands .bottom .card img:hover {
-          -webkit-transform: scale(1.55);
-              -ms-transform: scale(1.55);
-                  transform: scale(1.55); }
+          -webkit-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+                  transform: scale(1.1); }
       .Hands .bottom .card .list {
         position: absolute;
         top: 20px;
