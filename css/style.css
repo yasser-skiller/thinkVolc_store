@@ -580,28 +580,30 @@ ul, ol {
   .Gits .bottom {
     width: 100%;
     height: auto;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     @media (max-width: 992px) {
       .Gits .bottom {
-        grid-template-columns: repeat(3, 1fr); } }
-    @media (max-width: 767px) {
-      .Gits .bottom {
-        grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 567px) {
-      .Gits .bottom {
-        grid-template-columns: repeat(1, 1fr); } }
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; } }
     .Gits .bottom .card {
       position: relative;
-      width: 225px;
-      height: 300px;
+      width: 255px;
+      height: 320px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -609,13 +611,19 @@ ul, ol {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      margin: auto;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      margin: 20px;
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s; }
+
+@media (max-width:992px) {
+  .Gits .bottom .card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
       .Gits .bottom .card .over {
         overflow: hidden;
         width: 100%;
@@ -925,6 +933,12 @@ ul, ol {
                 text-decoration: line-through;
                 font-weight: 500;
                 font-size: 13px; }
+        @media (min-width: 1300px) {
+          .bsetSell .container .swiper-container .swiper-slide {
+            margin-left: 20px !important; } }
+        @media (min-width: 1650px) {
+          .bsetSell .container .swiper-container .swiper-slide {
+            margin-left: 0px !important; } }
 
 .Hands {
   width: 100%;
@@ -968,6 +982,12 @@ ul, ol {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    @media (min-width: 1300px) {
+      .Hands .bottom {
+        grid-template-columns: repeat(5, 1fr); } }
+    @media (min-width: 1650px) {
+      .Hands .bottom {
+        grid-template-columns: repeat(6, 1fr); } }
     @media (max-width: 992px) {
       .Hands .bottom {
         grid-template-columns: repeat(3, 1fr); } }
@@ -990,12 +1010,15 @@ ul, ol {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      margin: auto;
+      margin-right: 0;
       position: relative;
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s;
       overflow: hidden; }
+      @media (max-width: 567px) {
+        .Hands .bottom .card {
+          margin: auto; } }
       .Hands .bottom .card .fa-arrow-down {
         font-size: 20px;
         display: none; }
