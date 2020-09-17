@@ -669,6 +669,7 @@ ul, ol {
         -o-transition: all 0.5s;
         transition: all 0.5s;
         display: none;
+        z-index: 5;
         transition: all 0.5s; }
         @media (max-width: 767px) {
           .Gits .bottom .card .list {
@@ -860,6 +861,7 @@ ul, ol {
             -o-transition: all 0.5s;
             transition: all 0.5s;
             display: none;
+            z-index: 5;
             transition: all 0.5s; }
             @media (max-width: 767px) {
               .bsetSell .container .swiper-container .swiper-slide .card .list {
@@ -1064,6 +1066,7 @@ ul, ol {
         -o-transition: all 0.5s;
         transition: all 0.5s;
         display: none;
+        z-index: 5;
         transition: all 0.5s; }
         @media (max-width: 767px) {
           .Hands .bottom .card .list {
