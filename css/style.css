@@ -366,6 +366,9 @@ ul, ol {
           width: 25px;
           height: 25px;
           position: relative; }
+          .header .bottom_header .part_two .tools .Heart_icon .h,
+          .header .bottom_header .part_two .tools .buy_icon .h {
+            text-decoration: none; }
           .header .bottom_header .part_two .tools .Heart_icon i,
           .header .bottom_header .part_two .tools .buy_icon i {
             font-size: 27; }
