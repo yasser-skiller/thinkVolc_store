@@ -217,279 +217,86 @@
             </div>
         </section>
 
-        <section class="path">
-            <a href="#" class="main_path">الرئيسية</a>
-            <span><i class="fas fa-chevron-left"></i></span>
-            <a href="#" class="second_path">ورد</a>
-        </section>
-
-        <section class="page_title">
-            <p>ورد</p>
-        </section>
-
-        <section class="page_paragraph">
-            <p>ما أجمل الورد لتهدية لشخص يعز عليك</p>
-        </section>
-
-        <section class="Sec_Page_Main">
-            <section class="product_part">
-
-                <div class="classfcation_bord">
-                    <form action="#" class="form_classfcation_bord">
-                        <div class="frist_class">
-                            <label for="classfcations"> رتب حسب</label>
-                            <select id="classfcations">
-                                <option value="new">الأجدد</option>
-                                <option value="new">الأجدد</option>
-                                <option value="new">الأجدد</option>
-                            </select>
-                        </div>
-                        <div class="sec_class">
-                            <label>السعر</label>
-                            <label for="price"><span id="price_chossen"></span> ر.س</label>
-                            <input type="range" id="price_value_input" value="50" name="price" min="0" max="2500">
-                            <label for="price">2500 ر.س</label>
-                        </div>
-                        <div class="three_class">
-                            <label for="color">اللون</label>
-                            <input type="color"  name="color" >
-                        </div>
-                    </form>
+        <section class="registration_Main_page">
+            <div class="registration_page">
+                <div class="registration_title">
+                    <p>اكمل إدخال البيانات حتي يتم إضافة متجرك لدنيا</p>
                 </div>
+                <form class="registration_form" action="#">
+                    <div class="registration_item">
+                        <label for="storeName">اسم المتجر <sup>*</sup></label>
+                        <input type="text" name="storeName" placeholder="اسم المتجر في محركات البحث">
+                    </div>
+                    <div class="registration_item">
+                        <label for="serviceType">نوع الخدمة <sup>*</sup></label>
+                        <select  id="serviceType">
+                            <option>اختر نوع الخدمة </option>
+                            <option>خدمة </option>
+                            <option>خدمة </option>
+                            <option>خدمة </option>
+                            <option>أخري </option>
+                        </select>
+                    </div>
+                   
+                    <div class="registration_item_two">
+                        <div class="part_one">
+                            <label for="phone_one"> رقم جوال المتجر <sup>*</sup></label>
+                            <input type="text" name="phone_one" placeholder=" +2 000 000 000 " class="dir_left">
+                        </div>
+                        <div class="part_one mar">
+                            <label for="phone_two"> رقم  الواتس <sup>*</sup></label>
+                            <input type="text" name="phone_two" placeholder=" +2 000 000 000 " class="dir_left">
+                        </div>
+                    </div>
 
-                <div class="result">
-                    <p>تم الوصول ل <span>59</span> منتج</p>
-                </div>
+                    <div class="registration_item">
+                        <label for="email"> البريد الإلكتروني <sup>*</sup></label>
+                        <input type="email" name="email" placeholder="Example@mail.com" class="dir_left">
+                    </div>
 
-                <div class="all_sec_product">
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/6.jpg" alt="" class="prouduct_img">
+                    <div class="registration_item_two">
+                        <div class="part_sp_two">
+                            <label for="TimeUnit">مدة التوصيل</label>
+                            <select  id="TimeUnit">
+                                <option>دقيقة </option>
+                                <option>ساعة </option>
+                                <option>يوم </option>
+                                <option>شهر </option>
+                                <option>أخري </option>
+                            </select>                        
                         </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
+                        <div class="part_sp_one">
+                            <input type="text" name="time" placeholder=" 00:00" class="dir_center">
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/7.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/6.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/7.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/6.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img//7.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/6.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/7.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/6.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/7.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img/6.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="over">
-                        <img src="img//7.jpg" alt="" class="prouduct_img">
-                        </div>
-                        <div class="list">
-                            <i class="fas fa-heart"></i>
-                            <div></div>
-                            <img src="icon/Asset 277.svg"><i class="fas fa-arrow-down"></i>
-                        </div>
-                        <div class="card_info">
-                            <p class="productName">مصحف المدينة المنورة</p>
-                            <div class="price">
-                                <p class="price_in">150 ر.س</p>
-                                <p class="price_out">180 ر.س</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section class="add_part">
+                    <div class="registration_item_two">
+                        <div class="part_one">
+                            <label for="price">   الحد الأدني للطلب بالريال Sr </label>
+                            <input type="text" name="price" placeholder=" 00.00 " class="dir_center">
+                        </div>
+                        <div class="part_one mar">
+                            <label for="taks"> رسوم التوصيل بالريال Sr</label>
+                            <input type="text" name="taks" placeholder=" 00.00" class="dir_center">
+                        </div>
+                    </div>
 
-                <div class="ele_add_part_one">
-                    <img src="icon/Asset 1logo.svg" alt="">
-                </div>
+                    <div class="registration_item">
+                        <label for="locations">مناطق توصيل منتجك (المنطقة أو الحي)</label>
+                        <p>إن كان التوصيل لجميع مناطق السعودية  اكتب السعودية فقط. و إن كان جميع الأحياء في مدينة أو عدة مدن اكتب اسم المدينة او المدن فقط</p>
+                        <input type="text" name="locations" placeholder="ادخل المنطقة">
+                    </div>
 
-                <div class="ele_add_part_two">
-                    <img src="img/h.jpg" alt="">
-                </div>
+                    <div class="registration_item">
+                        <label for="note"> وصف المتجر</label>
+                        <textarea  name="note" placeholder="صف المتجر الخاص بك"></textarea>
+                    </div>
 
-            </section>
+                    <button class="buy_button"><a href="./completeRegistration.html">التالى </a></button>
+
+
+                </form>
+            </div>
         </section>
 
 
