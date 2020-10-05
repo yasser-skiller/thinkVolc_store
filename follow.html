@@ -7,7 +7,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">   
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://kit.fontawesome.com/d24b72e522.js" crossorigin="anonymous"></script>
         <title>Saudi Gifts </title>
     </head>
@@ -81,7 +83,7 @@
                                 </div>
                                 <div class="buy_all_products">
                                     <div class="buy_pro">
-                                        <div class="buy_pro_img"><img src="img/h.jpg"></div>
+                                        <div class="buy_pro_img"><img src="img/flo.png"></div>
                                         <div class="buy_pro_info">
                                             <div class="buy_pro_info_top">
                                                 <p class="t5">باقة ورد حمراء</p>
@@ -206,216 +208,56 @@
             </section>
         </header>
 
+        <section class="followpage">
 
-        <section class="main_item main_item_SEC">
-            <div class="container">
-                <li><a href="./SecPage.html">هداياVIP</a></li>
-                <li><a href="./SecPage.html">الأكثر مبيعاً</a></li>
-                <li> <a href="./SecPage.html"> صنع في مكة</a></li>
-                <li> <a href="./SecPage.html"> صنع في المدينة</a></li>
-                <li> <a href="./SecPage.html"> تذكارات الحرمين</a></li>
-            </div>
-        </section>
+            <div class="follow_head">
 
-        <section class="registration_Main_page">
-            <div class="registration_page">
-                <div class="registration_title">
-                    <p>اكمل إدخال البيانات حتي يتم إضافة متجرك لدنيا</p>
-                </div>
-                <form class="registration_form" action="#">
-                    <div class="registration_item">
-                        <label for="storeName">اسم المتجر <sup>*</sup></label>
-                        <input type="text" name="storeName" placeholder="اسم المتجر في محركات البحث">
-                    </div>
-                    <div class="registration_item">
-                        <label for="serviceType">نوع الخدمة <sup>*</sup></label>
-                        <select  id="serviceType">
-                            <option>اختر نوع الخدمة </option>
-                            <option>خدمة </option>
-                            <option>خدمة </option>
-                            <option>خدمة </option>
-                            <option>أخري </option>
-                        </select>
-                    </div>
-                   
-                    <div class="registration_item_two">
-                        <div class="part_one">
-                            <label for="phone_one"> رقم جوال المتجر <sup>*</sup></label>
-                            <input type="text" name="phone_one" placeholder=" +2 000 000 000 " class="dir_left">
-                        </div>
-                        <div class="part_one mar">
-                            <label for="phone_two"> رقم  الواتس <sup>*</sup></label>
-                            <input type="text" name="phone_two" placeholder=" +2 000 000 000 " class="dir_left">
-                        </div>
-                    </div>
-
-                    <div class="registration_item">
-                        <label for="email"> البريد الإلكتروني <sup>*</sup></label>
-                        <input type="email" name="email" placeholder="Example@mail.com" class="dir_left">
-                    </div>
-
-                    <div class="registration_item_two">
-                        <div class="part_sp_two">
-                            <label for="TimeUnit">مدة التوصيل</label>
-                            <select  id="TimeUnit">
-                                <option>دقيقة </option>
-                                <option>ساعة </option>
-                                <option>يوم </option>
-                                <option>شهر </option>
-                                <option>أخري </option>
-                            </select>                        
-                        </div>
-                        <div class="part_sp_one">
-                            <input type="text" name="time" placeholder=" 00:00" class="dir_center">
-                        </div>
-                    </div>
-
-                    <div class="registration_item_two">
-                        <div class="part_one">
-                            <label for="price">   الحد الأدني للطلب بالريال Sr </label>
-                            <input type="text" name="price" placeholder=" 00.00 " class="dir_center">
-                        </div>
-                        <div class="part_one mar">
-                            <label for="taks"> رسوم التوصيل بالريال Sr</label>
-                            <input type="text" name="taks" placeholder=" 00.00" class="dir_center">
-                        </div>
-                    </div>
-
-                    <div class="registration_item">
-                        <label for="locations">مناطق توصيل منتجك (المنطقة أو الحي)</label>
-                        <p>إن كان التوصيل لجميع مناطق السعودية  اكتب السعودية فقط. و إن كان جميع الأحياء في مدينة أو عدة مدن اكتب اسم المدينة او المدن فقط</p>
-                        <input type="text" name="locations" placeholder="ادخل المنطقة">
-                    </div>
-
-                    <div class="registration_item">
-                        <label for="note"> وصف المتجر</label>
-                        <textarea  name="note" placeholder="صف المتجر الخاص بك"></textarea>
-                    </div>
-
-                    <button class="buy_button" id="compRegis"><a href="#">التالى </a></button>
-
-
-                </form>
-            </div>
-        </section>
-
-        <section class="completeRegistration_Main_page">
-            <div class="completeRegistration_page">
-                <div class="completeRegistration_title">
-                    <p>اكمل إدخال البيانات حتي يتم إضافة متجرك لدنيا</p>
+                <div class="title">
+                    <img src="icon/Asset 4.svg">
+                    <p>تتبع شحنتي</p>
                 </div>
 
-                <form class="completeRegistration_form" action="#">
-
-                    <div class="completeRegistration_item">
-                        <label for="storeType">فئة المتجر <sup>*</sup></label>
-                        <input type="text" name="storeType" placeholder=" ادخل فئة المتجر">
-                    </div>
-
-                    <div class="completeRegistration_item">
-                        <label for="storedefnatins"> تعريف عام بالمتجر <sup>*</sup></label>
-                        <input type="text" name="storedefnatins" placeholder=" وصف عن أهم منتجات المتجر">
-                    </div>
-
-                    <div class="completeRegistration_item mar2">
-                        <label for="storeWords">  الكلمات الدلالية بالمتجر <sup>*</sup></label>
-                        <input type="text" id="words"  action="#" name="storeWords" placeholder=" أكثر الكلمات الدالة علي المتجر في محرك البحث ">
-                        <div  id="wordsParent"></div>
-                    </div>
-
-                    <div class="Map_sec">
-                        <span><i class="fas fa-map-marker-alt"></i></span>
-                        <p>خرائط و مواقع المتجر المتوفرة</p>
-                    </div>
-
-                    <div class="Main_Map">
-                        <div class="pain">
-                            <div class="completeRegistration_item">
-                                <label for="ll">موقع ودود </label>
-                                <input type="text" name="ll" placeholder=" اترك المكان فرغاً ان لم يكون الموقع مهماً">
-                            </div>
-                            <div class="completeRegistration_item">
-                                <label for="lll"> موقع المكتب في خرائط جوجل </label>
-                                <input type="text" name="lll" placeholder=" اترك المكان فرغاً ان لم يكون الموقع مهماً">
-                            </div>
-                        </div>
-                        <div class="map_hart">
-                            <div style="width: 100%"><iframe width="100%" height="220" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=Jeddah%20-%20Saudi%20Arabia+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
-                        </div>
-                    </div>
-                   
-                    <div class="completeRegistration_item_two mar2">
-                        <div class="part_one">
-                            <label for="la">خط العرض </label>
-                            <input type="text" name="la" placeholder=" اترك المكان فرغاً ان لم يكون الموقع مهماً">
-                        </div>
-                        <div class="part_one mar">
-                            <label for="ln">   خط الطول </label>
-                            <input type="text" name="ln" placeholder=" اترك المكان فرغاً ان لم يكون الموقع مهماً">
-                        </div>
-                    </div>
-
-                    <div class="Map_sec">
-                        <span><i class="far fa-images"></i></span>
-                        <p> الشعار و وسائل مرئية للمتجر</p>
-                    </div>
-
-                    <div class="completeRegistration_item_two">
-
-                        <div class="part_one">
-                            <label for=""> الشعار </label>
-                            <span class="remove">&#x2716;</span>
-                            <label for="image_logo" accept="image/*" class="upload"><img src="icon/upload.svg"></label>
-                            <input type="file" name="image_logo" id="image_logo" accept="image/*" class="input_file" >
-                        </div>
-
-                       <div class="part_one">
-                            <label for=""> صورة الغلاف </label>
-                            <span class="remove">&#x2716;</span>
-                            <label for="image_home" accept="image/*" class="upload"><img src="icon/upload.svg"></label>
-                            <input type="file" name="image_home" id="image_home" accept="image/*" class="input_file" >
-                        </div>
-                    </div>
-
-                    <div class="completeRegistration_item_two mar2">
-
-                        <div class="part_one">
-                            <label for=""> صورة إضافية </label>
-                            <span class="remove">&#x2716;</span>
-                            <label for="image_anthor" accept="image/*" class="upload"><img src="icon/upload.svg"></label>
-                            <input type="file" name="image_anthor" id="image_anthor" accept="image/*" class="input_file" >
-                        </div>
-
-                       <div class="part_one">
-                            <label for="">  فيديو عن المتجر </label>
-                            <span class="remove">&#x2716;</span>
-                            <label for="v_home" accept="video/*" class="upload"><img src="icon/upload.svg"></label>
-                            <input type="file" name="v_home" id="v_home" accept="video/*" class="input_file" >
-                        </div>
-                    </div>
-
-                    <div class="Map_sec">
-                        <span><i class="fas fa-share-alt"></i></span>
-                        <p> مواقع التواصل الخاصة بالمتجر</p>
-                    </div>
-
-                    <div class="social">
-                        <div class="head" id="head">
-                            <span><i class="fas fa-plus"></i></span>
-                            <p>إضافة رابط</p>
-                        </div>
-                        <div class="all_links">
-                            <input type="text" placeholder="Www.Exampale.com">
-                        </div>
-                    </div>
-
-                    <button class="buy_button"><a href="#">إنشاء </a></button>
-
-
+                <form class="scerch" action="#">
+                    <input type="text" placeholder="ادخل رقم الطلب هناء ... ">
+                    <button class="btn_footer">بحث</button>
                 </form>
             </div>
-        </section>
 
+            <div class="allfollow_container">
+                <table class="follow_container">
+                    <tr>
+                        <th>الطلب</th>
+                        <th>رقم الطلب</th>
+                        <th>التاريخ</th>
+                        <th>حالة الطلب</th>
+                    </tr>
+    
+                    <tr>
+                        <td>باقة ورد حمراء</td>
+                        <td>ECM10534TY57</td>
+                        <td>6/10/2020</td>
+                        <td>خارج من المخرن و في التوصيل </td>
+                    </tr>
+    
+                    <tr>
+                        <td> علبة هدايا</td>
+                        <td>E00CM10534TY57</td>
+                        <td>16/1/2020</td>
+                        <td>في المخزن</td>
+                    </tr>
+    
+                    <tr>
+                        <td>  سواك</td>
+                        <td>E00CM10534TY57</td>
+                        <td>16/1/2020</td>
+                        <td>في المخزن</td>
+                    </tr>
+                    
+                </table>
+            </div>
+
+        
+        </section>
 
         <footer class="footer">
             <div class="cont">
@@ -457,7 +299,9 @@
 
         
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="js/lightbox-plus-jquery.min.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
