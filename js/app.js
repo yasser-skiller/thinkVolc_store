@@ -186,7 +186,7 @@ let password_trick = document.querySelector("#password");
 let show = document.querySelector(".show");
 let hide = document.querySelector(".hide");
 
-if(password_trick && show && hide){
+if(password_trick){
 
     hide.style.display = "none";
     show.style.display = "none";
@@ -378,7 +378,7 @@ if(words){
     words.addEventListener("keydown",function(e){
         wr_el = document.createElement('div');
         RE = document.createElement('span');
-        if(e.keyCode === 13){
+        if(e.keyCode === 13 ||  e.keyCode === 9 || e.keyCode === 32){
             e.preventDefault();
             wr_el.classList.add('wr_el');
             RE.classList.add('RE');
