@@ -189,7 +189,7 @@ let hide = document.querySelector(".hide");
 if(password_trick){
 
     hide.style.display = "none";
-    show.style.display = "none";
+    // show.style.display = "none";
 
     password_trick.addEventListener("keypress",()=>{
         show.style.display = "block";

@@ -283,6 +283,8 @@
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -338,11 +340,11 @@
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
@@ -523,6 +525,8 @@
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -578,11 +582,11 @@
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
@@ -2125,6 +2129,8 @@ a {
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -2180,11 +2186,11 @@ a {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
@@ -2446,6 +2452,8 @@ a {
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -2501,11 +2509,11 @@ a {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
@@ -3067,6 +3075,8 @@ a {
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -3122,11 +3132,11 @@ a {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
@@ -3475,6 +3485,8 @@ a {
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -3530,11 +3542,11 @@ a {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
@@ -3745,6 +3757,8 @@ a {
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -3800,11 +3814,11 @@ a {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
@@ -4319,6 +4333,8 @@ a {
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -4374,11 +4390,11 @@ a {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
@@ -4696,6 +4712,8 @@ a {
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -4751,11 +4769,11 @@ a {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
@@ -5004,6 +5022,8 @@ a {
   font-size: 19;
   width: 180px;
   height: 50px;
+  line-height: 25px;
+  text-align: center;
   outline: none;
   border: none;
   padding: 10px;
@@ -5059,11 +5079,11 @@ a {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  color: #fff;
+  line-height: 50px; }
   .buy_button:hover {
     background-color: #44265a; }
-  .buy_button a {
-    color: #fff; }
 
 .btn_copon {
   width: 25%;
