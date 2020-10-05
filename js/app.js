@@ -373,11 +373,13 @@ let words = document.querySelector('#words');
 if(words){
     let wr_el ;
     let RE ;
+    console.log("sfdsg")
 
     words.addEventListener("keydown",function(e){
         wr_el = document.createElement('div');
         RE = document.createElement('span');
-        if(e.keyCode === 221){
+        if(e.keyCode === 13){
+            e.preventDefault();
             wr_el.classList.add('wr_el');
             RE.classList.add('RE');
             RE.innerHTML = `&#x2716;`
