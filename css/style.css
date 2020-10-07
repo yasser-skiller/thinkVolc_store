@@ -3,6 +3,9 @@
   padding: 0 5%;
   margin: 50px 0;
   display: none; }
+  .completeRegistration_Main_page #addwordbtn {
+    width: 70px;
+    margin: 10px 5px; }
   .completeRegistration_Main_page #wordsParent {
     display: -webkit-box;
     display: -ms-flexbox;

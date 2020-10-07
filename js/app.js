@@ -376,10 +376,11 @@ if(words){
     console.log("sfdsg")
 
     words.addEventListener("keydown",function(e){
-        wr_el = document.createElement('div');
-        RE = document.createElement('span');
-        if(e.keyCode === 13 ||  e.keyCode === 9 || e.keyCode === 32){
+       
+        if(e.keyCode === 13 ){
             e.preventDefault();
+            wr_el = document.createElement('div');
+            RE = document.createElement('span');
             wr_el.classList.add('wr_el');
             RE.classList.add('RE');
             RE.innerHTML = `&#x2716;`
@@ -389,6 +390,18 @@ if(words){
             words.value = ""; 
         }
     });
+
+    document.querySelector('#addwordbtn').addEventListener('click',()=>{
+        wr_el = document.createElement('div');
+        RE = document.createElement('span');
+        wr_el.classList.add('wr_el');
+        RE.classList.add('RE');
+        RE.innerHTML = `&#x2716;`
+        wr_el.innerHTML = words.value;
+        document.querySelector('#wordsParent').appendChild(wr_el);   
+        wr_el.appendChild(RE);   
+        words.value = ""; 
+    })
     
     setInterval(() => {
         let all_RE = document.querySelectorAll('.RE');
