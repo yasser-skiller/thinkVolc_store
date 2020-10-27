@@ -17,15 +17,16 @@
   }, 0);
 // }
 
-let imgB = document.querySelector('.big-img img'),
-    imgA = document.querySelector('.big-img .gl'),
-    smallerI = document.querySelectorAll('.smaller img'),
-    arr = Array.from(smallerI);
+let imgBD = document.querySelector('.big-img img'),
+    imgAS = document.querySelector('.big-img .gl'),
+    smallerII = document.querySelectorAll('.smaller img'),
+    arr_ = Array.from(smallerII);
 
-arr.forEach(a =>{
+
+arr_.forEach(a =>{
     a.addEventListener('click',(e) =>{
-        imgB.src = e.target.src
-        imgA.href = e.target.src
+        imgBD.src = e.target.src
+        imgAS.href = e.target.src
     })
 })
 let list = document.querySelectorAll('.list');

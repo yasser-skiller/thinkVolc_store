@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/lightbox.min.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">   
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://kit.fontawesome.com/d24b72e522.js" crossorigin="anonymous"></script>
         <title>Saudi Gifts </title>
     </head>
@@ -212,6 +211,7 @@
             <div class="container">
                 <li><a href="./SecPage.html">هداياVIP</a></li>
                 <li><a href="./SecPage.html">الأكثر مبيعاً</a></li>
+                <li><a href="./SecPage.html"> حرف يدوية</a></li>
                 <li> <a href="./SecPage.html"> صنع في مكة</a></li>
                 <li> <a href="./SecPage.html"> صنع في المدينة</a></li>
                 <li> <a href="./SecPage.html"> تذكارات الحرمين</a></li>
@@ -227,14 +227,18 @@
         <section class="productPage">
 
             <div class="product_slidre">
-                <div class="big-img">
-                    <a href="img/h.jpg" data-fancybox="gallery" class="gl"><img src="img/flo.png" alt=""></a>
+                <div class="big-img" style="position: relative;">
+                    <a href="img/flo.png" data-lightbox="roadtrip" class="gl"><img id="mainImgK" src="img/flo.png" alt=""></a>
+                    <img src="img/next.png" class="Next" style="position: absolute;top: 50%;right: 10px;width: 35px;height: 35px;">
+                    <img src="img/prev.png" class="pre" style="position: absolute;top: 50%;left: 10px;width: 35px;height: 35px;">
                 </div>
                 <div class="smaller">
-                    <img src="img/flool.png" alt="">
-                    <img src="img/floooo.png" alt="">
-                    <img src="img/flo.png" alt="">
+                    <a href="#" ><img src="img/floooo.png" alt="" class="mySlider"></a>
+                    <a href="#" ><img src="img/flool.png" alt="" class="mySlider"></a>
+                    <a href="#" ><img src="img/floo.png" alt="" class="mySlider"></a>
+                    <a href="#" ><img src="img/flo.png" alt="" class="mySlider"></a>
                 </div>
+               
             </div>
 
             <div class="product_info">
@@ -543,8 +547,7 @@
 
         
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="js/imageGellary.js"></script>
         <script src="js/lightbox-plus-jquery.min.js"></script>
         <script src="js/app.js"></script>
     </body>
