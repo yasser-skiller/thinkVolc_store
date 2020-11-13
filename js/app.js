@@ -17,18 +17,6 @@
   }, 0);
 // }
 
-let imgBD = document.querySelector('.big-img img'),
-    imgAS = document.querySelector('.big-img .gl'),
-    smallerII = document.querySelectorAll('.smaller img'),
-    arr_ = Array.from(smallerII);
-
-
-arr_.forEach(a =>{
-    a.addEventListener('click',(e) =>{
-        imgBD.src = e.target.src
-        imgAS.href = e.target.src
-    })
-})
 let list = document.querySelectorAll('.list');
 let ar_list = Array.from(list);
 
@@ -65,8 +53,8 @@ ar_list.forEach(element => {
 });
 
 //heart
-let heart_Coun = 0;
-heart_Counter.textContent = 0;
+let heart_Coun ;
+// heart_Counter.textContent = 0;
 
 if(heart_Coun == 0 || heart_Counter.textContent == 0 ){
     document.querySelector('.BigHeart2').style.display = 'none';
@@ -102,11 +90,11 @@ ar_list.forEach(element => {
 });
 
 //Buy
-let Buy_Coun = 0;
+let Buy_Coun ;
 let arr_icon = document.querySelector('.fa-arrow-down');
 if(arr_icon){
     let ar_arr_icon = Array.from(arr_icon);
-Buy_Counter.textContent = 0;
+// Buy_Counter.textContent = 0
 
 ar_list.forEach(element => {
     element.children[2].addEventListener('click',function(){
@@ -376,8 +364,7 @@ if(words){
     let RE ;
     console.log("sfdsg")
 
-    words.addEventListener("keydown",function(e){
-       
+    words.addEventListener("keydown",function(e){ 
         if(e.keyCode === 13 ){
             e.preventDefault();
             wr_el = document.createElement('div');
