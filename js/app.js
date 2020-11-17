@@ -53,7 +53,7 @@ ar_list.forEach(element => {
 });
 
 //heart
-let heart_Coun ;
+let heart_Coun = 0  ;
 // heart_Counter.textContent = 0;
 
 if(heart_Coun == 0 || heart_Counter.textContent == 0 ){
@@ -90,7 +90,7 @@ ar_list.forEach(element => {
 });
 
 //Buy
-let Buy_Coun ;
+let Buy_Coun = 0  ;
 let arr_icon = document.querySelector('.fa-arrow-down');
 if(arr_icon){
     let ar_arr_icon = Array.from(arr_icon);
@@ -100,8 +100,8 @@ ar_list.forEach(element => {
     element.children[2].addEventListener('click',function(){
 
         if(this.style.display !== 'none'){
-            Buy_Coun ++;
-            Buy_Counter.textContent = Buy_Coun;
+            // Buy_Coun ++;
+            // Buy_Counter.textContent = Buy_Coun;
             this.style.display = 'none';
             element.children[3].classList.add('hide')
             element.children[3].style.display = 'block';
@@ -112,8 +112,8 @@ ar_list.forEach(element => {
     element.children[3].addEventListener('click',function(){
 
         if(this.classList.contains('hide')){
-            Buy_Coun --;
-            Buy_Counter.textContent = Buy_Coun;
+            // Buy_Coun --;
+            // Buy_Counter.textContent = Buy_Coun;
             element.children[2].style.display = 'block';
             this.classList.remove('hide');
             this.style.display = 'none';
@@ -134,7 +134,7 @@ let ar_plus = Array.from(plus);
 let min = document.querySelectorAll('.min');
 let ar_min = Array.from(min);
 
-let QU_count = 1;
+let QU_count = 1 ;
 
 // QU.textContent = QU_count;
 
@@ -142,6 +142,9 @@ ar_plus.forEach(el => {
     el.addEventListener('click', ()=>{
         QU_count ++;
         el.parentElement.children[1].textContent = QU_count;
+        if(document.querySelector('#data_quantity_Num')){
+            document.querySelector('#data_quantity_Num').setAttribute('data-quantity',QU_count);
+        }
     })
 });
 
@@ -149,14 +152,33 @@ ar_plus.forEach(el => {
 ar_min.forEach(el => {
     el.addEventListener('click', ()=>{
         QU_count --;
-        if(QU_count < 1){
-            QU_count = 0 ;
+        if(QU_count < 2){
+            QU_count = 1 ;
         }
         el.parentElement.children[1].textContent = QU_count;
+        if(document.querySelector('#data_quantity_Num')){
+            document.querySelector('#data_quantity_Num').setAttribute('data-quantity',QU_count);
+        }
     })
 });
 
-
+//rate
+let NumRate = document.querySelector('.ratevalue');
+if(NumRate){
+    $(".rateYo").rateYo({
+        rating: NumRate.value,
+        starWidth: '20px',
+        numStars: 5,
+        minValue: 0,
+        maxValue: 5,
+        spacing: "15px",
+        readOnly: true,
+        normalFill: 'gray',
+        ratedFill: 'yellow',
+        
+    }) 
+}
+ 
 let texr_area = document.querySelector('#matxt');
 
 if(texr_area){
@@ -272,13 +294,11 @@ if(recycle_item && dash &&  login_info && drive_info && pay_info){
 }
 let price_value_input = document.querySelector('#price_value_input');
 let price_chossen = document.querySelector('#price_chossen');
- setInterval(() => {
-    if(price_value_input && price_chossen){
-        price_chossen.textContent = price_value_input.value;
-    }else{
-        null
-    }
- }, 0);
+
+price_value_input.addEventListener('change',()=>{
+    price_chossen.textContent = price_value_input.value;
+    document.querySelector('.form_classfcation_bord').submit();
+})
 if(document.querySelector('#head')){
     document.querySelector('#head').addEventListener('click',()=>{
         let New_Link = document.createElement('input');
